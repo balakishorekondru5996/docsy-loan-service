@@ -9,7 +9,11 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 public class DocsyLoanServiceApplication {
 	
 	void display() {
-		System.out.println("docsy-loan-service---dev/1.0.0");
+		System.out.println("docsy-loan-service---dev/2.0.0");
+	}
+	
+	void show() {
+		System.out.println("docsy-loan-service---dev/2.0.0");
 	}
 
 
